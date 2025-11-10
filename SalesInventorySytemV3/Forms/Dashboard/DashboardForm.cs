@@ -26,7 +26,7 @@ namespace SalesInventorySytemV3.Forms.Dashboard
             _productService = productService;
             _salesService = salesService;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.Dock = DockStyle.Fill;
             InitializeComponent();
             LoadDashboard();
             timer1.Start();

@@ -18,7 +18,7 @@ namespace SalesInventorySytemV3.Forms.Employees
         {
             _employeeService = employeeService;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.Dock = DockStyle.Fill;
             InitializeComponent();
             LoadEmployees();
             timer1.Start();

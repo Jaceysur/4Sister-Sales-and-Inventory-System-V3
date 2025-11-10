@@ -27,7 +27,7 @@ namespace SalesInventorySytemV3.Forms.Sales
             _productService = productService;
             _salesService = salesService;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.Dock = DockStyle.Fill;
             InitializeComponent();
             LoadProducts();
             timer1.Start();

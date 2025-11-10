@@ -24,7 +24,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardForm));
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblTodaySalesLabel = new System.Windows.Forms.Label();
             this.lblTodaySales = new System.Windows.Forms.Label();
@@ -74,9 +74,10 @@
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTitle.Location = new System.Drawing.Point(16, 29);
+            this.lblTitle.Location = new System.Drawing.Point(20, 36);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(157, 37);
+            this.lblTitle.Size = new System.Drawing.Size(193, 46);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Dashboard";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -88,9 +89,10 @@
             this.lblTodaySalesLabel.ForeColor = System.Drawing.Color.White;
             this.lblTodaySalesLabel.Image = ((System.Drawing.Image)(resources.GetObject("lblTodaySalesLabel.Image")));
             this.lblTodaySalesLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTodaySalesLabel.Location = new System.Drawing.Point(18, 13);
+            this.lblTodaySalesLabel.Location = new System.Drawing.Point(22, 16);
+            this.lblTodaySalesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTodaySalesLabel.Name = "lblTodaySalesLabel";
-            this.lblTodaySalesLabel.Size = new System.Drawing.Size(205, 29);
+            this.lblTodaySalesLabel.Size = new System.Drawing.Size(250, 36);
             this.lblTodaySalesLabel.TabIndex = 1;
             this.lblTodaySalesLabel.Text = "    Today\'s Sales";
             this.lblTodaySalesLabel.Click += new System.EventHandler(this.lblTodaySalesLabel_Click);
@@ -100,9 +102,10 @@
             this.lblTodaySales.AutoSize = true;
             this.lblTodaySales.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTodaySales.ForeColor = System.Drawing.Color.White;
-            this.lblTodaySales.Location = new System.Drawing.Point(19, 42);
+            this.lblTodaySales.Location = new System.Drawing.Point(24, 52);
+            this.lblTodaySales.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTodaySales.Name = "lblTodaySales";
-            this.lblTodaySales.Size = new System.Drawing.Size(43, 20);
+            this.lblTodaySales.Size = new System.Drawing.Size(54, 25);
             this.lblTodaySales.TabIndex = 2;
             this.lblTodaySales.Text = "₱0.0";
             // 
@@ -111,9 +114,10 @@
             this.lblTotalProducts.AutoSize = true;
             this.lblTotalProducts.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalProducts.ForeColor = System.Drawing.Color.White;
-            this.lblTotalProducts.Location = new System.Drawing.Point(93, 37);
+            this.lblTotalProducts.Location = new System.Drawing.Point(116, 46);
+            this.lblTotalProducts.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalProducts.Name = "lblTotalProducts";
-            this.lblTotalProducts.Size = new System.Drawing.Size(23, 25);
+            this.lblTotalProducts.Size = new System.Drawing.Size(28, 32);
             this.lblTotalProducts.TabIndex = 3;
             this.lblTotalProducts.Text = "0";
             // 
@@ -122,9 +126,10 @@
             this.lblLowStock.AutoSize = true;
             this.lblLowStock.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowStock.ForeColor = System.Drawing.Color.White;
-            this.lblLowStock.Location = new System.Drawing.Point(90, 37);
+            this.lblLowStock.Location = new System.Drawing.Point(112, 46);
+            this.lblLowStock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLowStock.Name = "lblLowStock";
-            this.lblLowStock.Size = new System.Drawing.Size(23, 25);
+            this.lblLowStock.Size = new System.Drawing.Size(28, 32);
             this.lblLowStock.TabIndex = 4;
             this.lblLowStock.Text = "0";
             // 
@@ -133,9 +138,10 @@
             this.lblTodayOrders.AutoSize = true;
             this.lblTodayOrders.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTodayOrders.ForeColor = System.Drawing.Color.White;
-            this.lblTodayOrders.Location = new System.Drawing.Point(89, 37);
+            this.lblTodayOrders.Location = new System.Drawing.Point(111, 46);
+            this.lblTodayOrders.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTodayOrders.Name = "lblTodayOrders";
-            this.lblTodayOrders.Size = new System.Drawing.Size(23, 25);
+            this.lblTodayOrders.Size = new System.Drawing.Size(28, 32);
             this.lblTodayOrders.TabIndex = 5;
             this.lblTodayOrders.Text = "0";
             // 
@@ -152,10 +158,11 @@
             this.lvRecent.ForeColor = System.Drawing.Color.Black;
             this.lvRecent.HideSelection = false;
             this.lvRecent.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
-            this.lvRecent.Location = new System.Drawing.Point(24, 259);
+            listViewItem1});
+            this.lvRecent.Location = new System.Drawing.Point(30, 324);
+            this.lvRecent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvRecent.Name = "lvRecent";
-            this.lvRecent.Size = new System.Drawing.Size(933, 651);
+            this.lvRecent.Size = new System.Drawing.Size(1165, 813);
             this.lvRecent.TabIndex = 6;
             this.lvRecent.UseCompatibleStateImageBehavior = false;
             this.lvRecent.View = System.Windows.Forms.View.Details;
@@ -187,18 +194,19 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1689, 95);
+            this.panel1.Size = new System.Drawing.Size(2111, 119);
             this.panel1.TabIndex = 7;
             // 
             // day
             // 
             this.day.AutoSize = true;
             this.day.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.day.Location = new System.Drawing.Point(1510, 29);
+            this.day.Location = new System.Drawing.Point(1888, 36);
+            this.day.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.day.Name = "day";
-            this.day.Size = new System.Drawing.Size(40, 20);
+            this.day.Size = new System.Drawing.Size(50, 25);
             this.day.TabIndex = 15;
             this.day.Text = "Day";
             // 
@@ -206,9 +214,10 @@
             // 
             this.time.AutoSize = true;
             this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time.Location = new System.Drawing.Point(1428, 57);
+            this.time.Location = new System.Drawing.Point(1785, 71);
+            this.time.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(49, 20);
+            this.time.Size = new System.Drawing.Size(59, 25);
             this.time.TabIndex = 14;
             this.time.Text = "timer";
             // 
@@ -216,9 +225,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1305, 57);
+            this.label4.Location = new System.Drawing.Point(1631, 71);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 20);
+            this.label4.Size = new System.Drawing.Size(152, 25);
             this.label4.TabIndex = 13;
             this.label4.Text = "Date and time:";
             // 
@@ -228,9 +238,10 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(15, 11);
+            this.label1.Location = new System.Drawing.Point(19, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 24);
+            this.label1.Size = new System.Drawing.Size(183, 29);
             this.label1.TabIndex = 8;
             this.label1.Text = "Total Products";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -240,9 +251,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(47, 11);
+            this.label2.Location = new System.Drawing.Point(59, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 24);
+            this.label2.Size = new System.Drawing.Size(133, 29);
             this.label2.TabIndex = 9;
             this.label2.Text = "Low Stock";
             // 
@@ -251,9 +263,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(32, 11);
+            this.label3.Location = new System.Drawing.Point(40, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 24);
+            this.label3.Size = new System.Drawing.Size(174, 29);
             this.label3.TabIndex = 10;
             this.label3.Text = "Today Orders";
             // 
@@ -262,9 +275,10 @@
             this.panel2.BackColor = System.Drawing.Color.DarkBlue;
             this.panel2.Controls.Add(this.lblTodaySalesLabel);
             this.panel2.Controls.Add(this.lblTodaySales);
-            this.panel2.Location = new System.Drawing.Point(1097, 165);
+            this.panel2.Location = new System.Drawing.Point(1371, 206);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(513, 79);
+            this.panel2.Size = new System.Drawing.Size(641, 99);
             this.panel2.TabIndex = 11;
             // 
             // panel3
@@ -272,9 +286,10 @@
             this.panel3.BackColor = System.Drawing.Color.DarkBlue;
             this.panel3.Controls.Add(this.lblTotalProducts);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(90, 165);
+            this.panel3.Location = new System.Drawing.Point(112, 206);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(198, 79);
+            this.panel3.Size = new System.Drawing.Size(248, 99);
             this.panel3.TabIndex = 12;
             // 
             // timer1
@@ -286,9 +301,10 @@
             this.panel4.BackColor = System.Drawing.Color.DarkBlue;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.lblLowStock);
-            this.panel4.Location = new System.Drawing.Point(393, 165);
+            this.panel4.Location = new System.Drawing.Point(491, 206);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(198, 79);
+            this.panel4.Size = new System.Drawing.Size(248, 99);
             this.panel4.TabIndex = 13;
             // 
             // panel5
@@ -296,18 +312,20 @@
             this.panel5.BackColor = System.Drawing.Color.DarkBlue;
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.lblTodayOrders);
-            this.panel5.Location = new System.Drawing.Point(686, 165);
+            this.panel5.Location = new System.Drawing.Point(858, 206);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(198, 79);
+            this.panel5.Size = new System.Drawing.Size(248, 99);
             this.panel5.TabIndex = 13;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.DarkBlue;
             this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(1097, 479);
+            this.panel6.Location = new System.Drawing.Point(1371, 599);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(513, 79);
+            this.panel6.Size = new System.Drawing.Size(641, 99);
             this.panel6.TabIndex = 14;
             // 
             // label5
@@ -317,10 +335,11 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(17, 24);
+            this.label5.Location = new System.Drawing.Point(21, 30);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(164, 31);
+            this.label5.Size = new System.Drawing.Size(204, 39);
             this.label5.TabIndex = 1;
             this.label5.Text = "    Calendar";
             // 
@@ -329,9 +348,10 @@
             this.btnPrev.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrev.ForeColor = System.Drawing.Color.White;
-            this.btnPrev.Location = new System.Drawing.Point(1109, 584);
+            this.btnPrev.Location = new System.Drawing.Point(1386, 730);
+            this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(100, 36);
+            this.btnPrev.Size = new System.Drawing.Size(125, 45);
             this.btnPrev.TabIndex = 0;
             this.btnPrev.Text = "Prev";
             this.btnPrev.UseVisualStyleBackColor = false;
@@ -342,9 +362,10 @@
             this.btnNext.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.Location = new System.Drawing.Point(1500, 584);
+            this.btnNext.Location = new System.Drawing.Point(1875, 730);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(92, 36);
+            this.btnNext.Size = new System.Drawing.Size(115, 45);
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = false;
@@ -355,9 +376,10 @@
             this.lbMonthYear.AutoSize = true;
             this.lbMonthYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMonthYear.ForeColor = System.Drawing.Color.Black;
-            this.lbMonthYear.Location = new System.Drawing.Point(1262, 589);
+            this.lbMonthYear.Location = new System.Drawing.Point(1578, 736);
+            this.lbMonthYear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbMonthYear.Name = "lbMonthYear";
-            this.lbMonthYear.Size = new System.Drawing.Size(130, 24);
+            this.lbMonthYear.Size = new System.Drawing.Size(162, 29);
             this.lbMonthYear.TabIndex = 2;
             this.lbMonthYear.Text = "Month - Year";
             this.lbMonthYear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -366,9 +388,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(1116, 641);
+            this.label7.Location = new System.Drawing.Point(1395, 801);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 13);
+            this.label7.Size = new System.Drawing.Size(53, 16);
             this.label7.TabIndex = 3;
             this.label7.Text = "Sunday";
             // 
@@ -376,9 +399,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(1184, 641);
+            this.label8.Location = new System.Drawing.Point(1480, 801);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.Size = new System.Drawing.Size(56, 16);
             this.label8.TabIndex = 4;
             this.label8.Text = "Monday";
             // 
@@ -386,9 +410,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(1252, 641);
+            this.label9.Location = new System.Drawing.Point(1565, 801);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 13);
+            this.label9.Size = new System.Drawing.Size(61, 16);
             this.label9.TabIndex = 5;
             this.label9.Text = "Tuesday";
             // 
@@ -396,9 +421,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(1313, 641);
+            this.label10.Location = new System.Drawing.Point(1641, 801);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 13);
+            this.label10.Size = new System.Drawing.Size(81, 16);
             this.label10.TabIndex = 6;
             this.label10.Text = "Wednesday";
             // 
@@ -406,9 +432,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(1388, 641);
+            this.label11.Location = new System.Drawing.Point(1735, 801);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 13);
+            this.label11.Size = new System.Drawing.Size(64, 16);
             this.label11.TabIndex = 7;
             this.label11.Text = "Thursday";
             // 
@@ -416,9 +443,10 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(1462, 641);
+            this.label12.Location = new System.Drawing.Point(1828, 801);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 13);
+            this.label12.Size = new System.Drawing.Size(45, 16);
             this.label12.TabIndex = 8;
             this.label12.Text = "Friday";
             // 
@@ -426,28 +454,30 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(1524, 641);
+            this.label13.Location = new System.Drawing.Point(1905, 801);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(49, 13);
+            this.label13.Size = new System.Drawing.Size(61, 16);
             this.label13.TabIndex = 9;
             this.label13.Text = "Saturday";
             // 
             // daycontainer
             // 
             this.daycontainer.ForeColor = System.Drawing.Color.Black;
-            this.daycontainer.Location = new System.Drawing.Point(1109, 666);
+            this.daycontainer.Location = new System.Drawing.Point(1386, 832);
+            this.daycontainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.daycontainer.Name = "daycontainer";
-            this.daycontainer.Size = new System.Drawing.Size(483, 265);
+            this.daycontainer.Size = new System.Drawing.Size(604, 331);
             this.daycontainer.TabIndex = 10;
             // 
             // DashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1640, 968);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.daycontainer);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -467,6 +497,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrev);
             this.ForeColor = System.Drawing.Color.White;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DashboardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

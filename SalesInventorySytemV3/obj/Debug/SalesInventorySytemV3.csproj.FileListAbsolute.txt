@@ -67,7 +67,6 @@ C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInvent
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\obj\Debug\SalesInventorySytemV3.csproj.AssemblyReference.cache
-C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\obj\Debug\SalesInventorySytemV3.Forms.Analytics.AnalyticsForm.resources
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\obj\Debug\SalesInventorySytemV3.Forms.Dashboard.DashboardForm.resources
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\obj\Debug\SalesInventorySytemV3.Forms.Employees.CreateEmployeeForm.resources
 C:\Users\jemmy\Source\Repos\19\4Sister-Sales-and-Inventory-System-V3\SalesInventorySytemV3\obj\Debug\SalesInventorySytemV3.Forms.Employees.EmployeesForm.resources

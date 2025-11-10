@@ -82,7 +82,6 @@ namespace SalesInventorySytemV3.Forms.Main
 
         }
 
-        private void btnAnalytics_Click(object sender, EventArgs e) => OpenChildForm(new Analytics.AnalyticsForm(_productService, _salesService));
 
         private void btnSettings(object sender, EventArgs e) => OpenChildForm(new Settings.SettingsForm(_productService, _salesService));
 

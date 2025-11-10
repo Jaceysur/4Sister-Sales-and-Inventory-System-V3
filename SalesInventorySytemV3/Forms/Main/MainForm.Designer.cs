@@ -88,7 +88,7 @@
             this.btnAnalytics.TabIndex = 9;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.UseVisualStyleBackColor = false;
-            this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
+
             // 
             // pictureBox1
             // 
@@ -211,6 +211,7 @@
             // 
             // panelContent
             // 
+            this.panelContent.AutoScroll = true;
             this.panelContent.BackColor = System.Drawing.SystemColors.Control;
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContent.Location = new System.Drawing.Point(285, 0);
